@@ -1,0 +1,207 @@
+<html>
+	<head><title>Dealer consult form</title></head>
+	
+	<style>
+		
+		.background{
+					width:100%;
+					background-color:grey;
+					height:600px;
+					display:flex;
+					}
+					
+		.col1{
+			width:40%;
+			background-color:#DCD4A2;
+			}
+		
+		.col2{
+			width:60%;
+			height:600px;
+				overflow-x:auto;
+			background-color:#DCD4A2;
+			}
+			
+		.row1{
+				width:90%;
+				margin:10px 35px;
+				height:1200px;
+				box-shadow: 2px 3px 8px  grey;
+				background-color:white;
+				}
+				
+		.row2{
+			width:100%;
+			text-align:center;
+			color:black;
+			padding-top:15px;
+			font-family:sans-serif;
+			font-size:30px;
+			height:50px;
+			}
+			
+		.row3{
+			width:100%;
+			height:100px;
+			background-color:black;
+			}
+			
+		 .button{
+				  border-radius:12px;
+				  box-sizing:border-box;
+				  color:black;
+				  font-size: 15px;
+				  background-color:#DCD4A2;
+				  height:40px;
+				  font-family:sans-serif;
+				  border:1px solid grey;
+			      margin-left:50px;
+				  padding-left:20px;
+				  width:40%;
+				}
+				
+		
+		 .button1{
+				  border-radius:12px;
+				  box-sizing:border-box;
+				  color:black;
+				  font-size: 15px;
+				  background-color:#DCD4A2;
+				  height:40px;
+				  font-family:sans-serif;
+				  border:1px solid grey;
+			      margin-left:50px;
+				  padding-left:20px;
+				  width:87%;
+				}
+				
+				
+		 .button2{
+				  border-radius:12px;
+				  box-sizing:border-box;
+				  color:black;
+				  font-size: 15px;
+				  background-color:#DCD4A2;
+				  height:40px;
+				  font-family:sans-serif;
+				  border:1px solid grey;
+			      margin-left:50px;
+				  padding-left:20px;
+				  width:25%;
+				}
+				
+		.button2 a{
+				 font-size:25px;
+				 text-decoration:none;
+				 font-family:sans-serif;
+				 color:black;
+				 }
+				 
+		.button2:hover{
+						background-color:pink;
+						}
+		
+		
+				
+		b{
+			font-family:sans-serif;
+			font-size:18px;
+			}
+			
+	.last{
+			width:100%;
+			height:60px;
+			background-color:black;
+			text-decoration:none;
+			}
+			
+		.last a{
+				font-family:arial;
+				font-size:15px;
+				text-decoration:none;
+				color:white;
+				}
+	
+		.last :hover{
+					color:yellow;
+					}
+		
+		
+		
+				
+		
+	</style>
+	
+		<body>
+			
+			<div class="background">
+			
+				<div class="col1"><img src="images/salesman.png" height="600px"width="90%"></div>
+				
+				<div class="col2">
+					<div class="row1">
+						<div class="row2"><b><u>FILL THE FORM</u></b></div><br><br>
+							<form>
+								<label for="fname" style="margin-left:60px;"><b>Dealer Name:</b></label><br>
+								<input type="text" class="button" id="fname" name="fname" placeholder="First Name" ></input>
+								<input type="text" class="button" id="lname" name="lname" placeholder="Last Name" ></input><br><br>
+								
+								<label for="Email Address" style="margin-left:60px;"><b>Email Address:</b></label><br>
+								<input type="email" class="button1" id="Email Address" name="Email Address" placeholder="Email Address" ></input><br><br>
+								
+								<label for="Street Address" style="margin-left:60px;"><b>Address:</b></label><br>
+								<input type="email" class="button1" id="Street Address" name="Street Address" placeholder="Street Address" ></input><br><br>
+								<input type="email" class="button1" id="Street Address Line 2" name="Street Address Line 2" placeholder="About Your Product" ></input><br><br>
+								
+								<input type="text" class="button" id="City" name="City" placeholder="Initial-Price" ></input>
+								<input type="text" class="button" id="Region" name="Region" placeholder="Availability Of Product" ></input><br><br>
+								
+								<input type="text" class="button" id="Postal/Zip Code" name="Postal/Zip Code" placeholder="Final Price" ></input>
+								<input type="text" class="button" id="India" name="India" placeholder="Is COD Available..??" ></input><br><br>
+								
+								<label for="test required" style="margin-left:60px;"><b>About Your Payment:</b></label><br><br>
+								<input type="radio" id="MRI-scan"  value="Mri-scan" name="test required" style="margin-left:60px;"></input>
+								<label for="MRI-scan">Bank Transfer</label><br><br>
+								<input type="radio" id="X-reay scan"  value="X-ray scan" name="test required" style="margin-left:60px;"></input>
+								<label for="X-ray scan">Ponepay</label><br><br>
+								<input type="radio" id="CT-scan"   value="CT-scan" name="test required" style="margin-left:60px;" ></input>
+								<label for="CT-scan">Gpay</label><br><br>
+								<input type="radio" id="Ultrasound-scan"  value="Ultrasound-scan" name="test required" style="margin-left:60px;"></input>
+								<label for="Ultrasound">Paytm</label><br><br><br>
+								
+								<label for="date" style="margin-left:60px;"><b>Date:</b></label>
+								<input type="date"  id="date" name="date" placeholder="date" style="margin-left:60px;width:25%;"></input>
+								
+								<label for="time" style="margin-left:60px;"><b>Time:</b></label>
+								<input type="time"  id="time" name="time" placeholder="time" style="margin-left:60px;width:25%;"></input><br><br><br>
+								
+								<label for="Phone Number" style="margin-left:60px;"><b>Phone Number:</b></label><br>
+								<input type="tel" class="button1" id="Phone Number" name="Phone Number" placeholder="Enter Mobile Number" ></input><br><br>
+								
+								<label for="doccuments" style="margin-left:60px;"><b>Submit Your Product Images:</b></label><br><br>
+								<input type="file"  id="doccuments" name="doccument" style="margin-left:60px; width:30%;"></input><br><br><br><br><br><br>
+								
+								<button type="reset" class="button2" style="margin-left:22%;"><a href="">Reset</a></button>
+						
+								<button type="submit" class="button2" style="margin-left:20px;"><a href="file:///D:/html/amazon%20grid.html">Publish</a></button><br><br><br><br>
+								
+								
+								
+							</form>	
+							
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			
+				<div class="row3">
+					<div class="last">
+					<button type="text" class="last"><a href="file:///D:/html/avniet/self%20bussiness.html">Previous </a></button>
+				</div>
+				</div>
+			
+		</body>
+	
+</html>
